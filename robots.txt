@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: https://eralistexno.com.ua
+Sitemap: https://eralistexno.com.ua/sitemap.xml

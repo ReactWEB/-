@@ -1,0 +1,26 @@
+.topline{
+    display: grid;
+	line-height: 10vh;
+	grid-template-rows: 1fr;	
+	background: #f8ffe8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(33%,#e3f5ab), color-stop(100%,#b7df2d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px;
+	text-align: center;
+	font: bold 1.5em Arial, Calibri, Tahoma;
+	color: #0B0E6F;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px){	
+	.topline{
+	font: bold 1.3em Arial, Calibri, Tahoma;
+}
+
+	

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1000px){
+	.tables{
+		margin-left: 6%;
+	}
+	.pictures{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.pictures .pict_kirp1, .pictures .pict_kirp2, 
+	.pictures .pict_kirp3, .pictures .pict_kirp4{
+		width: 100%;	   
+        margin: 15px auto 5px auto;	
+	}
+}
+
+@media only screen and (max-width: 700px){	
+	#textKirpich {
+	    width: 80%;    
+	    margin-left: 10%;
+	}
+}
+
+
+

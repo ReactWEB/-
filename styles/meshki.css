@@ -1,0 +1,132 @@
+@import url(reset.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}    
+
+html, body{
+  height: 100%;
+  width: 100vw;  
+}
+
+body { 
+  text-align: center;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 1.65;
+  font-family: raleway-example, sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.grid{
+  display: grid;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*Начало шапки сайта*/
+/*-----------------*/
+/*Конец шапки сайта*/
+
+/*Начало хлебных крошек*/
+/*--------------------*/
+/*Конец хлебных крошек*/
+
+/*Начало topline*/
+
+/*Конец topline*/
+
+.tables{ 
+  max-width: 94%;
+  margin-left: 3%;
+  grid-column: 1/-1;
+  grid-gap: 20px;     
+}
+
+table, th, td{
+	border: 1px solid #cccccc;
+	text-align: center;	
+}
+
+th{
+	background-color: #DAE104;
+	font: bold 1.2em Arial, sans-serif;	
+    text-align: center;
+}
+
+td{
+	font: bold 1.1em Arial, sans-serif;
+	text-align: center;	
+}
+
+table{	
+	border-collapse: collapse;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;			
+}
+
+.up{
+  background-color: #FF6699;
+}
+
+.nazvanie{
+  background-color: #FFFF00;
+}
+
+.dlina{
+  background-color: #66FFFF;
+}
+.cena{
+  background-color: #66FF99;
+}
+
+h1{
+	width: 90%;	
+	text-align: center;
+	margin: 10px 4.5% 5px 4.5%;
+	font: bold 1em Arial, sans-serif;
+	color: #232DE1;
+}
+
+h2{
+	text-align: left;
+	margin: 10px 4.5% 5px 4.5%;
+	font: bold 1.4em Arial, sans-serif;
+	color: #232DE1;
+}
+
+.pictures{	
+	grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; 
+  margin-bottom: 20px;  
+}
+
+.pictures .pict_meshok1, .pictures .pict_meshok2{
+	width: 33%; 
+  height: 350px;
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-bottom: 30px;  
+  background-repeat: no-repeat;
+}
+
+/*Начало сайдбара*/
+/*Конец сайдбара*/
+
+#tags{
+	font: 0.1em Arial, sans-serif;
+	text-align: center;	
+}
+
+
+
+

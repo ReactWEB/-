@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1000px){
+	.pictures{
+	grid-template-columns: repeat(1, 1fr);
+}
+	.pictures .pict_cement, .pictures .pict_cement2 {
+    width: 100%;	   
+    margin: 15px auto 5px auto;
+}
+}
+
+@media only screen and (max-width: 700px){
+	th{	
+	font: bold 1.2em Arial, sans-serif;
+}
+	td {
+    font: bold 1em Arial, sans-serif;
+}	
+h3{	
+	font: bold 1.3em candara, sans-serif;	
+  }
+	
+}
+
+@media only screen and (max-width: 550px){
+	th{	
+	font: bold 1.1em Arial, sans-serif;
+}
+	td {
+    font: bold 0.9em Arial, sans-serif;
+}
+	article {
+    font: bold 1.1em Arial, sans-serif;
+}
+	p {
+    width: 80%;
+    font: bold 1em Arial, Calibri, Tahoma;
+}  
+	td {
+    font: bold 1em Arial, sans-serif;
+}
+}
+
+@media only screen and (max-width: 450px){
+	.topline{
+	font: bold 1em Arial, sans-serif;
+}
+	article{
+	width: 90%;
+	margin-left: 5%;
+}   
+}
+
+@media only screen and (max-width: 400px){
+	.price {    
+    width: 96%;    
+    margin-left: 2%;
+}   
+}

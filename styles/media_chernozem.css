@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1000px){
+	.pictures{	   
+    grid-template-columns: repeat(1, 1fr);	  
+	}
+	.pictures .pict_chernozem, .pictures .pict_grunt{
+	width: 100%;	   
+    margin: 15px auto 5px auto;	
+	}
+}
+
+@media only screen and (max-width: 700px){
+	#textСhernozem{	
+	font: bold 1.1em Arial, sans-serif;
+	}	
+}
+
+@media only screen and (max-width: 550px){
+	#textСhernozem{	
+	font: 1.1em Arial, sans-serif;
+	}	
+}
+
+@media only screen and (max-width: 400px){
+	h1{	
+	font: bold 0.9em Arial, sans-serif;
+	}
+	#textСhernozem{	
+	font: 1em Arial, sans-serif;
+	}	
+}
+	

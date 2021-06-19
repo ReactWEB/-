@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1000px){
+	.pictures{	  
+    grid-template-columns: repeat(1, 1fr);	 
+}
+    .pictures .pict_poluObres1, .pictures .pict_poluObres2{
+	width: 100%;	   
+    margin: 15px auto 5px auto;		
+}
+}
+
+@media only screen and (max-width: 700px){
+	#textObrez{	
+	font: bold 1.1em Arial, sans-serif;	
+    }    
+}
+
+@media only screen and (max-width: 400px){
+	h1{	
+	font: bold 0.9em Arial, sans-serif;
+	}
+	#textObrez {
+    font: bold 1em Arial, sans-serif;
+	}	
+}
+	

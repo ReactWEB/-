@@ -1,0 +1,50 @@
+ @media only screen and (max-width: 1000px){
+ 	.pictures{
+		grid-template-columns: repeat(1, 1fr);
+	}
+ 	.pictures .pict_dvp3, .pictures .pict_dvp1, 
+ 	.pictures .pict_dvp2, .pictures .pict_dvp4{
+		width: 100%;	   
+        margin: 15px auto 5px auto;	
+}	
+}
+
+@media only screen and (max-width: 700px){
+	h1{
+		font: bold 1.1em Arial, sans-serif;
+	}
+	th{
+		font: bold 1.1em Arial, sans-serif;
+	}
+	td{
+		font: bold 1em Arial, sans-serif;
+	}	
+	.plita_dvp{
+    font: bold 1.3em Arial, sans-serif;
+    }    
+	#textDVP{    
+    font: 1em Arial, sans-serif;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	h1{
+		font: bold 1em Arial, sans-serif;
+	}
+	th{
+		font: bold 1em Arial, sans-serif;
+	}
+	td{
+		font: bold 0.9em Arial, sans-serif;
+	}	
+	.plita_dvp{
+    font: bold 1.2em Arial, sans-serif;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	h1{
+		font: bold 0.8em Arial, sans-serif;
+	}	
+}
+

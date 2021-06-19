@@ -1,0 +1,100 @@
+@import url(reset.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}    
+
+html, body{
+  height: 100%;
+  width: 100vw;  
+}
+
+body { 
+  text-align: center;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 1.65;
+  font-family: raleway-example, sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.grid{
+  display: grid;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*Начало шапки сайта*/
+/*-----------------*/
+/*Конец шапки сайта*/
+
+/*Начало хлебных крошек*/
+/*--------------------*/
+/*Конец хлебных крошек*/
+
+/*Начало topline*/
+
+/*Конец topline*/
+
+h1{
+  width: 90%; 
+  text-align: center;
+  margin: 10px 4.5% 5px 4.5%;
+  font: bold 1em Arial, sans-serif;
+  color: #232DE1;
+}
+
+h2, h3{
+  text-align: center;
+  margin: 10px 4.5% 5px 4.5%;
+  font: bold 1em Arial, sans-serif;
+  color: white;
+}
+
+#textSalt, #textSmes, #textBishofit{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  font: 1.2em Arial, sans-serif;
+  text-align: left;
+}
+
+.accent{
+  text-align:left;
+  font:bold 1.2em Arial,sans-serif;
+  color:#F60;
+  margin:20px 0 20px 5%;
+}
+
+.pictures{  
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px; 
+  margin-bottom: 30px;
+}
+
+.pictures .pict_salt, 
+.pictures .pict_smes, 
+.pictures .pict_bishofit{  
+  width: 100%;    
+  margin: 15px auto 5px auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+

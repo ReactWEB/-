@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1000px){
+	.pictures{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.pictures .pict1, .pictures .pict2, 
+	.pictures .pict_otsev1, .pictures .pict_otsev2{
+		width: 100%;	   
+        margin: 15px auto 5px auto;	
+	}	
+}
+
+@media only screen and (max-width: 700px){	
+	.up {    
+        font: bold 1em Arial, sans-serif;
+	}
+}
+
+@media only screen and (max-width: 550px){	
+	.up {    
+        font: bold 1em Arial, sans-serif;
+	}
+	#textSheben, #textOtsev{			
+	    font: bold 0.9em Arial, sans-serif;
+	}
+}
+

@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 100%/1.5em Arial, Helvetica, sans-serif;
+    background-image: url(../images/back_gray.png);
+    background-repeat: repeat;
+}
+
+.grid{
+  display: grid;
+}
+
+.wrapper{
+	width: 90%;		
+	height: auto;		
+}
+
+#kontaktyblock{
+	width: 90%;
+	height: auto;
+	margin: 4px auto;
+	background-attachment: fixed;
+	overflow: hidden;
+	background: rgba(255,255,255,0.7);
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	border: solid 1px #f0b7a1;	
+	background-image: url(../images/back_all.webp);
+    background-repeat: repeat;
+}
+
+/*Конец заголовка (шапки)*/
+
+.mymap{
+	overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;	
+}
+	
+.mymap iframe{
+	left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+h2{
+	color: #5141FF; 
+}
+
+#mapText{
+	width: 90%;
+	margin-top: 5px;	
+	font: bold 1.1875em Arial, Calibri, Tahoma;
+	background-position: left;
+	margin-left: 5%;	
+}

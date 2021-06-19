@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1000px){
+	.pictures{
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.pictures .pict_fanera1, .pictures .pict_fanera2{
+		width: 100%;	   
+        margin: 15px auto 5px auto;			
+	}
+}
+
+@media only screen and (max-width: 550px){
+	h1{
+		font: bold 1em Arial, sans-serif;
+	}
+	h2{
+		font: bold 0.9em Arial, sans-serif;
+	}
+	h3{
+		font: bold 0.8em Arial, sans-serif;
+	}
+	th{
+		font: 1em Arial, sans-serif;
+	}
+
+	td{
+		font: bold 0.9em Arial, sans-serif;
+	}	
+}
+
+@media only screen and (max-width: 400px){
+	.tables .table_1, .tables .table_2, 
+	.tables .table_3, .tables .table_4, 
+	.tables .table_5, .tables .table_6, 
+	.tables .topline{ 
+	    max-width: 96%; 
+	}
+	th{
+		font: 0.9em Arial, sans-serif;
+	}
+	h2{
+		font: bold 0.8em Arial, sans-serif;
+	}
+	h3{
+		font: bold 0.7em Arial, sans-serif;
+	}
+	p{
+		font: bold 0.7em Arial, sans-serif;
+	}		
+}
+

@@ -1,0 +1,112 @@
+#SIDEBAR{
+	width: 26%;
+	height: auto;
+	margin: 15px auto;	
+	background-attachment: fixed;	
+	overflow: hidden;
+	background: rgba(255,255,255,0.7);
+	box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	border: solid 0.5px #f0b7a1;
+}
+
+.sb_header{
+    padding-left: 4px;
+	font: bold 19px Arial, Calibri, Tahoma;
+	color: #f00;
+}
+
+.sb_nav{
+	width: 98%;
+	height: 540px;
+	margin-left: 2px;
+	background: #f8ffe8; /* Old browsers */
+background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(33%,#e3f5ab), color-stop(100%,#b7df2d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.sb_nav ul{
+    list-style: none;
+}
+.sb_nav ul li{
+	padding-left: 5px; 
+}
+.sb_nav ul li a>i{
+	background: url('../images/forSprite.png');
+	width: 14%;
+	height: 25px;
+	margin-top: 1px;
+	float: left;
+}
+
+.sb_nav ul li b{
+padding-left: 10px;
+}
+
+.sb_nav ul li a{
+	text-decoration: none;
+	list-style: none;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	padding-top: 1px;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+	border-bottom: 1px solid #ff0;
+	border-radius: 5px;
+	font-size: 13px;
+	font-family: Arial, Calibri, Tahoma;
+}
+.sb_nav ul li a:hover{
+	background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(50%,#8c3310), color-stop(51%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+	color: #FFF; 
+}
+.copyrights{
+	margin-top: 1px;
+	position: relative;
+	bottom: 0px;
+	color: #800000;
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 850px){		
+	#SIDEBAR {
+    width: 40%;
+}
+}
+
+@media only screen and (max-width: 700px){		
+	#SIDEBAR {
+    width: 38%;
+}
+}
+
+@media only screen and (max-width: 550px){
+	#SIDEBAR {
+    width: 50%;
+}
+}
+
+@media only screen and (max-width: 400px){
+	#SIDEBAR {
+    width: 70%;
+}
+}
+
+
+

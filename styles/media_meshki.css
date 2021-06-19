@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1000px){
+	th{	
+	font: bold 1em Arial, sans-serif;    
+	}
+
+	td{
+	font: bold 1em Arial, sans-serif;		
+	}
+	.pictures{	   
+    grid-template-columns: repeat(1, 1fr);	  
+    }
+
+    .pictures .pict_meshok1, .pictures .pict_meshok2{
+	width: 100%;	   
+    margin: 15px auto 5px auto;			
+    }
+}
+
+@media only screen and (max-width: 550px){
+	th{	
+	font: bold 0.9em Arial, sans-serif;    
+	}
+	td{
+	font: bold 0.9em Arial, sans-serif;		
+	}
+	h1{
+	font: bold 0.9em Arial, sans-serif;
+	}
+	.topline{
+	font: bold 1em Arial, Calibri, Tahoma;
+	}	
+}
+
+@media only screen and (max-width: 400px){
+	td{
+	font: 0.85em Arial, sans-serif;		
+	}	
+}
