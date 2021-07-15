@@ -119,6 +119,13 @@ table{
   margin-bottom: 30px;  
   background-repeat: no-repeat;
 }
+
+.description{
+  width: 90%;
+  font: 1.1em Arial, sans-serif;
+  text-align: left;
+}
+
 /*Начало сайдбара*/
 
 #SIDEBAR{
