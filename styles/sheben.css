@@ -44,7 +44,7 @@ body {
 
 /*Конец topline*/
 
-#textSheben, #textOtsev{
+.textSheben, .textOtsev, .textVidy{
 	width: 90%;	
 	text-align: left;		
 	font: bold 1.1em Arial, sans-serif;
