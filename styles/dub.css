@@ -60,13 +60,17 @@ h2{
 }
 
 h3{
+  width: 80%;
+  padding-left: 10%;
   text-align: left;
-  font: bold 1.5em candara, sans-serif;
+  font: bold 1.3em candara, sans-serif;
   color: #DC143C;
 }
 article{  
+  width: 80%;
+  padding-left: 10%;
   text-align: left;
-  font: 500 1.1em cambria, sans-serif;
+  font: 500 1em cambria, sans-serif;
 }
 
 #textDub{
