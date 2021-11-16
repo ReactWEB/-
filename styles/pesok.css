@@ -44,7 +44,7 @@ body {
 
 /*Конец topline*/
 
-#textPesok{
+#textPesok, #textPesok2{
 	width: 90%;
 	font: bold 1.2em Arial, sans-serif;
 	margin-left: 5%;
