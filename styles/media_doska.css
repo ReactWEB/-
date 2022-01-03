@@ -12,9 +12,12 @@
 	.pictures{
 	grid-template-columns: repeat(1, 1fr);
 }
-	.pictures .pict_doska2, .pictures .pict_doska3, .pictures .pict_doska4, .pictures .pict_doska5{
+	.pictures .pict_doska2, 
+	.pictures .pict_doska3, 
+	.pictures .pict_doska4, 
+	.pictures .pict_doska5{
 	width: 100%;	   
-    margin: 15px auto 5px auto;		
+  margin: 15px auto 5px auto;		
 }
 	#textDoska{	   
 	font: 1.1em Arial, sans-serif;

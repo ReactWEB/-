@@ -119,21 +119,18 @@ article{
 
 .pictures .pict_brus1, .pictures .pict_brus2, 
 .pictures .pict_brus3, .pictures .pict_brus4{
-	width: 33%;	
-	height: 265px;		
+	width: 33%;				
 	margin-left: 20%;
-  margin-top: 30px;   
-  margin-bottom: 80px;
-  border-radius: 7px; 
+  margin-top: 20px;   
+  margin-bottom: 30px;   
   background-repeat: no-repeat;
 }
 
 .pictures .pict_brus5, .pictures .pict_brus6{
 	width: 33%;	
-	height: 377px;		
+	/*height: 377px;*/		
 	margin-left: 20%;
-  margin-top: 30px;   
-  border-radius: 7px; 
+  margin-top: 30px;      
   background-repeat: no-repeat;
 }
 
