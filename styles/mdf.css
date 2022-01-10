@@ -127,3 +127,21 @@ h2{
 	background-image: url(../images/mdfVnutri2.webp);	
 }
 
+#textMDF{
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	font: 1.2em Arial, sans-serif;
+	text-align: left;
+}
+
+h3{
+  text-align: left;
+  font: bold 1.5em candara, sans-serif;
+  color: #DC143C;
+}
+article{  
+  text-align: left;
+  font: 500 1.1em cambria, sans-serif;
+}
+
