@@ -109,6 +109,7 @@
   font: bold 1.2em Arial, serif;
   color: white;
 }
+}
 
 @media only screen and (max-width: 860px){  
   .Header_grid .company_name {  
