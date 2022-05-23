@@ -46,9 +46,10 @@ body {
 /*Конец topline*/
 
 p{
-	width: 90%;
+	width: 80%;
 	font: bold 1.2em Arial, sans-serif;
 	margin-left: 5%;
+  color: #FF8000;
 }
 
 ul, li{
@@ -121,9 +122,10 @@ table{
 }
 
 .description{
-  width: 90%;
-  font: 1.1em Arial, sans-serif;
+  width: 80%;
+  font: 600 1.1em cambria, sans-serif;
   text-align: left;
+  color: #000;
 }
 
 /*Начало сайдбара*/

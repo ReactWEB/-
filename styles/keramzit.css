@@ -44,15 +44,6 @@ body {
 
 /*Конец topline*/
 
-#textKeramzit, .textKeramzit{
-	width: 90%;	
-	text-align: left;		
-	font: bold 1.1em Arial, sans-serif;
-	color: #000;
-	margin-top: 10px; 
-	margin-left: 5%;
-}
-
 .up{
   background-color: #FF6699;
   font: bold 1.2em Arial, sans-serif;
@@ -82,6 +73,22 @@ body {
   margin-top: 20px;
   margin-bottom: 30px;  
   background-repeat: no-repeat;
+}
+
+#textKeramzit, .textKeramzit{
+	width: 80%;	
+	text-align: left;		
+	font: bold 1.1em Arial, sans-serif;
+	color: #000;
+	margin-top: 10px; 
+	margin-left: 5%;
+}
+
+ul{  
+  margin-left: 10%;	
+  font: 600 1.2em cambria, sans-serif;
+  text-align: left;
+  color: #FF8000; 
 }
 /*Начало сайдбара*/
 

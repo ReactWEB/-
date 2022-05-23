@@ -92,23 +92,23 @@ h1{
 	text-align: center;
 	margin: 10px 4.5% 5px 4.5%;
 	font: bold 1.2em Arial, sans-serif;
-	color: #232DE1;
+	color: #915a09;
 }
 
 h2{
 	text-align: left;
 	margin: 10px 4.5% 5px 4.5%;
-	font: italic bold 2em candara, sans-serif;
-	color: #00FF00;
+	font: italic bold 1.7em candara, sans-serif;
+	color: #6d4c04;
 }
 h3{
   text-align: left;
-  font: bold 1.5em candara, sans-serif;
-  color: #DC143C;
+  font: bold 1.1em cambria, sans-serif;
+  color: #FF8000;
 }
 article{  
   text-align: left;
-  font: 500 1.1em cambria, sans-serif;
+  font: 600 1em cambria, sans-serif;
 }
 
 .pictures{	

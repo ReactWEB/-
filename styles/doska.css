@@ -96,20 +96,20 @@ h1{
 }
 
 h2{		
-	text-align: left;
+	text-align: center;
 	margin: 10px 4.5% 5px 4.5%;
-	font: italic bold 1.4em Arial, sans-serif;
-	color: #232DE1;
+	font: italic bold 1.3em Arial, sans-serif;
+	color: #964e06;
 }
 
 h3{
   text-align: left;
-  font: bold 1.5em candara, sans-serif;
-  color: #DC143C;
+  font: bold 1.1em candara, sans-serif;
+  color: #FF8000;
 }
 article{  
   text-align: left;
-  font: 500 1.1em cambria, sans-serif;
+  font: 600 1em cambria, sans-serif;
 }
 
 .pictures{  
@@ -127,7 +127,7 @@ article{
 }
 
 #textDoska{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	margin-left: 5%;
 	font: 1.2em Arial, sans-serif;

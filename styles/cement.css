@@ -52,19 +52,18 @@ h1{
 }
 
 h2{
-	text-align: left;
-	margin: 10px 4.5% 5px 4.5%;
-	font: italic bold 2em candara, sans-serif;
+	text-align: left;	
+	font: italic bold 1.8em candara, sans-serif;
 	color: #00FF00;
 }
 h3{
   text-align: left;
-  font: bold 1.5em candara, sans-serif;
-  color: #DC143C;
+  font: bold 1.6em candara, sans-serif;
+  color: #FF8000;
 }
 article{  
   text-align: left;
-  font: 500 1.1em cambria, sans-serif;
+  font: 600 1.1em cambria, sans-serif;
 }
 
 .price{	
@@ -127,7 +126,7 @@ table{
 }
 
 #textCement{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	margin-left: 5%;	
 	text-align: left;	

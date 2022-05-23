@@ -130,12 +130,13 @@ h2{
 	width: 90%;
 	height: auto;
 	margin-left: 5%;
-	font: 1.2em Arial, sans-serif;
+	font: 600 1.1em cambria, sans-serif;
 	text-align: left;
 }
 
 .svoistvo{
 	color: #FF8000;
+	font: 600 1.3em cambria, sans-serif;
 }
 
 /*Начало сайдбара*/

@@ -92,22 +92,25 @@ h1{
 	text-align: center;
 	margin: 10px 4.5% 5px 4.5%;
 	font: bold 1.2em Arial, sans-serif;
-	color: brown;
+	color: rgb(145, 74, 8);
 }
 p{
   width: 90%;	
 	text-align: center;
 	margin: 10px 4.5% 5px 4.5%;
-	font: bold 1em Arial, sans-serif;
+	font: bold 1.2em Arial, sans-serif;
 	color: green;
 }
 
 .descr{
-  width: 90%;
+  width: 80%;
   margin-left: 4.5%;
 	text-align: left;	
-	font: 1em Arial, sans-serif;	
+	font: 600 1.1em cambria, sans-serif;	
   color: black;
+}
+span{
+  color: #FF8000;
 }
 
 

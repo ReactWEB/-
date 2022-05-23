@@ -98,9 +98,15 @@ h1{
 }
 
 h2{
-	text-align: center;	
-	font: bold 1em Arial, sans-serif;
-	color: #232DE1;
+	text-align: left;	
+	font: bold 1.2em candara, sans-serif;
+	color: #DC143C;
+}
+
+h3{
+  text-align: left;
+  font: bold 1.2em candara, sans-serif;
+  color: #DC143C;
 }
 
 .prim{
@@ -128,20 +134,12 @@ h2{
 }
 
 #textMDF{
-	width: 90%;
-	height: auto;
-	margin-left: 5%;
-	font: 1.2em Arial, sans-serif;
-	text-align: left;
+	width: 80%;
+  height: auto;
+  margin-left: 10%;	
+  font: 600 1.2em cambria, sans-serif;
+  text-align: left;
 }
 
-h3{
-  text-align: left;
-  font: bold 1.5em candara, sans-serif;
-  color: #DC143C;
-}
-article{  
-  text-align: left;
-  font: 500 1.1em cambria, sans-serif;
-}
+
 

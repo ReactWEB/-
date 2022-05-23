@@ -44,22 +44,40 @@ body {
 
 /*Конец topline*/
 
-#textPesok, #textPesok2{
-	width: 90%;
-	font: bold 1.2em Arial, sans-serif;
+p{
+	width: 80%;
+	font: 600 1.3em cambria, sans-serif;
 	margin-left: 5%;
 	text-align: left;
+  color: #FF8000;
+}
+
+article{
+  width: 90%;
+	font: 600 1.1em cambria, sans-serif;	
+  margin-left: 5%;
+	text-align: left;  
 }
 
 .up{
   background-color: #FF6699;
+  color: #000;
+  font: 600 1.3em cambria, sans-serif;
 }
 
 .dlina{
   background-color: #66FFFF;
+  color: #000;
+  font: 600 1.3em cambria, sans-serif;
 }
 .cena{
   background-color: #66FF99;
+  color: #000;
+  font: 600 1.3em cambria, sans-serif;
+}
+
+span{
+  font: 600 1.2em cambria, sans-serif;
 }
 
 .pictures{	

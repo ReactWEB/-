@@ -67,6 +67,10 @@ h2{
 	text-align: left;
 }
 
+span{
+  color: #FF8000;
+}
+
 .pictures{	
 	grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;

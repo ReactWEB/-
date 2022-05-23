@@ -100,24 +100,26 @@ h1{
 	width: 90%;	
 	text-align: center;
 	margin: 10px 4.5% 5px 4.5%;
-	font: bold 1em Arial, sans-serif;
+	font-family: candara, sans-serif;
 	color: #232DE1;
 }
 
 h2{
-	text-align: left;
-	margin: 10px 4.5% 5px 4.5%;
-	font: italic bold 2em candara, sans-serif;
-	color: #00FF00;
+	text-align: left;	
+	font: bold 1.3em candara, sans-serif;
+	color: #FF8000;
 }
+
 h3{
   text-align: left;
-  font: bold 1.5em candara, sans-serif;
-  color: #DC143C;
+  font: bold 1.3em candara, sans-serif;
+  color: #FF8000;
 }
-article{  
+
+h4{
   text-align: left;
-  font: 500 1.1em cambria, sans-serif;
+  font: bold 1.3em candara, sans-serif;
+  color: #FF8000;
 }
 
 .pictures{
@@ -138,7 +140,7 @@ article{
 }
 
 #textKvarz, #textMramor, #textKvarz2{
-	width: 90%;
+	width: 80%;
 	text-align: left;
 	margin-left: 5%;
 	font: bold 1.1em Arial, sans-serif;
