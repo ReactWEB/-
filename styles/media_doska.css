@@ -49,24 +49,35 @@ h3 {
 }
 	h2 {
     font: bold 1em Arial, sans-serif;
-}
+}	
 	th {
-    font: 1em Arial, sans-serif;
+	font: 1em Arial, sans-serif;
 }
 	.breadcrumbs ul li a{
 	font-size: 0.8em;
 }
+ 
 	#textDoska {
     font: 1em Arial, sans-serif;
 }	
 }
 
-@media only screen and (max-width: 400px){	
+@media only screen and (max-width: 400px){		
+	.tables{
+		margin-left: 0;			
+	}
 	td {
     font: bold 0.9em Arial, sans-serif;
 }
 	th {
     font: 0.9em Arial, sans-serif;
 }   
+	.pictures .pict_doska4, .pictures .pict_doska5{
+		width: 100%;  
+		margin-top: 10px; 
+		margin-bottom: 10px;   
+		margin-left: -3%;
+		background-repeat: no-repeat;
+}
 }
 
