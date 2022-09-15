@@ -97,17 +97,17 @@ h1{
 
 h2{
 	text-align: left;	
-	font: italic bold 1.8em candara, sans-serif;
+	font: italic bold 1.6em candara, sans-serif;
 	color: #00FF00;
 }
 h3{
   text-align: left;
-  font: bold 1.5em candara, sans-serif;
+  font: bold 1.3em candara, sans-serif;
   color: #FF8000;
 }
 article{  
   text-align: left;
-  font: 600 1.1em cambria, sans-serif;
+  font: 500 1em cambria, sans-serif;
 }
 
 .pictures{	
