@@ -32,5 +32,19 @@
 	}		
 }
 
-
+@media only screen and (max-width: 400px){
+	h1{
+		font: bold 0.9em Arial, sans-serif;
+	}
+	th{
+		font: bold 0.9em Arial, sans-serif;
+	}
+	td{
+		font: bold 0.8em Arial, sans-serif;
+	}		
+	#textMDF{		
+		font: 500 1em cambria, sans-serif;		
+	}
+	
+}
 

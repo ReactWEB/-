@@ -4,7 +4,7 @@
 	}
 
    .pictures .pict_drova1, .pictures .pict_drova2{
-	width: 100%;	   
+	  width: 100%;	   
     margin: 15px auto 5px auto;	
 	}
 }
@@ -20,17 +20,17 @@
 	font: bold 0.95em Arial, sans-serif;	
     }
 
-    td{
+  td{
 	font: bold 0.95em Arial, sans-serif;	
 	}	
 }
 
 @media only screen and (max-width: 400px){
 	h1{	
-	font: bold 0.85em Arial, sans-serif;
+	font: bold 1.1em Arial, sans-serif;
 	}
-	p{
-	font: bold 0.9em Arial, sans-serif;
-	}	
+	.descr{
+		font: 600 1em cambria, sans-serif;
+	}
 }
 	
