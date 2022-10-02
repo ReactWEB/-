@@ -22,7 +22,7 @@
 	#textDoska{	   
 	font: 1.1em Arial, sans-serif;
 }
-	h2{	
+h2{	
 	font: bold 1.2em Arial, sans-serif;	
 }
 h3 {
@@ -55,16 +55,15 @@ h3 {
 }
 	.breadcrumbs ul li a{
 	font-size: 0.8em;
-}
- 
+} 
 	#textDoska {
     font: 1em Arial, sans-serif;
 }	
 }
 
 @media only screen and (max-width: 400px){		
-	.tables{
-		margin-left: 0;			
+	.tables{		
+		margin-left: 0;					
 	}
 	td {
     font: bold 0.9em Arial, sans-serif;
