@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 1075px){		
 	.header_grid .logo{		
-		background-image: url(../images/logo_site_min.webp);
+		background-image: url(../images/logo_patriot_min.webp);
 	}
 	.header_grid .company_name{
 		grid-column: 3/9;
@@ -88,7 +88,7 @@
 	    height: 46vh;
 	}
 	.header_grid .logo{
-		background-image: url(../images/logo_site_min.png);
+		background-image: url(../images/logo_patriot_min.png);
 		grid-row: 1/6;
 	}
 	.header_grid .company_name{
@@ -149,7 +149,7 @@
 
 @media only screen and (max-width: 865px){	
 	.header_grid .logo{
-		background-image: url(../images/logo_site_min.png);
+		background-image: url(../images/logo_patriot_min.png);
 		grid-column: 1/4;
 		grid-row: 1/7;
 	}	
@@ -266,7 +266,7 @@
 	    height: 46vh;
 	}	
 	.header_grid .logo{
-		background-image: url(../images/logo_site_mini.png);
+		background-image: url(../images/logo_patriot_mini.png);
 		grid-column: 1/4;
 		grid-row: 1/7;
 	}	
