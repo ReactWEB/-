@@ -96,9 +96,10 @@ h1{
 }
 
 h2{
-	text-align: left;	
-	font: italic bold 1.6em candara, sans-serif;
-	color: #00FF00;
+	text-align: center;
+	margin: 10px 4.5% 5px 4.5%;
+	font: italic bold 1.3em Arial, sans-serif;
+	color: #964e06;
 }
 h3{
   text-align: left;
