@@ -49,14 +49,14 @@ body {
   margin-bottom: 20px;  
 }
 
-.tables .table_1, .tables .table_2{
+.tables .table_1{
   grid-column: 1/-1;
   width: 90%;  
 }
 
 table, td, th{
 	border: 1px solid #cccccc;
-	text-align: center;
+  text-align: left;	
 }
 
 td{
@@ -66,7 +66,7 @@ td{
 
 th{
 	background-color: #66FFFF;
-	font: bold 1.125em Arial, sans-serif;	
+	font: bold 1.125em Arial, sans-serif;
 }
 
 table{	
@@ -79,9 +79,6 @@ table{
 	background-color: #FF6699;
 }
 
-.shtuki{
-	background-color: #66FF66;
-}
 .cena{
 	background-color: #FFFF00;
 }
