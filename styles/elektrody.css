@@ -109,6 +109,12 @@ h2, h3{
 	font: bold 1em Arial, sans-serif;
 	color: white;
 }
+h4{
+  text-align: center;
+	margin: 10px 4.5% 5px 4.5%;
+	font: bold 1em Arial, sans-serif;
+	color: #232DE1;
+}
 
 .pictures{	
 	grid-template-columns: repeat(2, 1fr);

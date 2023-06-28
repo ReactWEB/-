@@ -87,7 +87,7 @@ table{
   background-repeat: no-repeat;
 }
 
-h1{
+h1, h2{
 	width: 90%;	
 	text-align: center;
 	margin: 10px 4.5% 5px 4.5%;
