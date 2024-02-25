@@ -155,6 +155,11 @@
   font: bold 1.5em Arial, serif;  
 }
 }
+@media only screen and (max-width: 1075px) and (orientation: landscape){
+	.header_grid {		
+		height: 60vh;
+    }	
+}
 
 @media only screen and (max-width: 860px){ 
   .Header_grid {		  
@@ -200,6 +205,11 @@
   .phone-1, .phone-2, .phone-3, .phone-4{  
     font: bold 1.2em Arial, serif;    
 }  
+}
+@media only screen and (max-width: 860px) and (orientation: landscape){
+	.header_grid {		
+		height: 60vh;
+    }	
 }
 
 @media only screen and (max-width: 550px){  
@@ -250,6 +260,11 @@
     font: bold 1.2em Arial, serif;
 }
 }
+@media only screen and (max-width: 550px) and (orientation: landscape){
+	.header_grid {		
+		height: 60vh;
+    }	
+}
 
 @media only screen and (max-width: 450px){  
   .Header_grid {		  
@@ -299,13 +314,18 @@
     font: bold 1em Arial, serif;
 }
 }
+@media only screen and (max-width: 450px) and (orientation: landscape){
+	.header_grid {		
+		height: 70vh;
+    }	
+}
 
 @media only screen and (max-width: 350px){
   .Header_grid {		  
 		height: 50vh;    
 }
-.Header_grid .logo {  
-  grid-column: 1/5;  
+  .Header_grid .logo {  
+    grid-column: 1/5;  
 }
   .Header_grid .company_name { 
     grid-column: 5/13; 
@@ -320,4 +340,9 @@
   .phone-1, .phone-2, .phone-3, .phone-4{  
     font: bold 0.9em Arial, serif;
 }
+}
+@media only screen and (max-width: 350px) and (orientation: landscape){
+	.header_grid {		
+		height: 70vh;
+    }	
 }
