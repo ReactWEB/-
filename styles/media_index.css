@@ -202,7 +202,7 @@
 
 @media only screen and (max-width: 416px){	
 	.header_grid {	      
-	  height: 56vh;
+	  height: 52vh;
 	}
 	.header_grid .logo{
 		grid-column: 1/5;
@@ -219,7 +219,7 @@
 		font: bold italic 0.9em Arial, serif;
 	}	
 	.header_grid .contacts_button{
-		grid-column: 2/5;
+		grid-column: 2/6;
 		grid-row: 6/7;			
 	}
 	.header_grid .button{
@@ -264,13 +264,13 @@
 
 @media only screen and (max-width: 416px) and (orientation: landscape){
 	.header_grid {		
-		height: 70vh;
+		height: 80vh;
     }	
 }	
 
 @media only screen and (max-width: 325px) {
 	.header_grid {				
-		height: 46vh;					
+		height: 42vh;					
   }	
 	.header_grid .logo {	
 		grid-column: 1/5;					 
@@ -314,7 +314,7 @@
 
 @media only screen and (max-width: 325px) and (orientation: landscape){
 	.header_grid {		
-		height: 70vh;
+		height: 80vh;
     }	
 }
 

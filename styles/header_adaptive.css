@@ -268,7 +268,7 @@
 
 @media only screen and (max-width: 450px){  
   .Header_grid {		  
-		height: 50vh;    
+		height: 48vh;    
 }
   .Header_grid .logo {
     background-image: url(../images/new_logo_mini.png);
@@ -316,13 +316,13 @@
 }
 @media only screen and (max-width: 450px) and (orientation: landscape){
 	.header_grid {		
-		height: 70vh;
+		height: 80vh;
     }	
 }
 
 @media only screen and (max-width: 350px){
   .Header_grid {		  
-		height: 50vh;    
+		height: 48vh;    
 }
   .Header_grid .logo {  
     grid-column: 1/5;  
@@ -343,6 +343,6 @@
 }
 @media only screen and (max-width: 350px) and (orientation: landscape){
 	.header_grid {		
-		height: 70vh;
+		height: 80vh;
     }	
 }
