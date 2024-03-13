@@ -1,4 +1,26 @@
 User-agent: *
-Disallow: 
-Host: https://eralistexno.com.ua
+Disallow: /admin/      
+Disallow: /wp-admin/   
+Disallow: /wp-login.php   
+Disallow: /login/      
+Disallow: /register/   
+Disallow: /checkout/   
+Disallow: /cart/       
+Disallow: /search/     
+Disallow: /tag/        
+Disallow: /category/   
+Disallow: /trackback/  
+Disallow: /feed/      
+Disallow: /comments/   
+Disallow: /xmlrpc.php  
+Disallow: /index.php   
+Disallow: /app/        
+Disallow: /lib/        
+Disallow: /downloader/ 
+Disallow: /js/        
+Disallow: /shell/      
+Disallow: /fonts/      
+Disallow: /src/        
+Disallow: /gd/         
+
 Sitemap: https://eralistexno.com.ua/sitemap.xml
